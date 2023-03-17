@@ -10,7 +10,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  // base: process.env.NODE_ENV === "production" ? "/diamond-without-pwa/" : "/",
+  base: process.env.NODE_ENV === "production" ? "/diamond-without-pwa/" : "/",
   // base: '/diamond-castle',
   
   plugins: [
